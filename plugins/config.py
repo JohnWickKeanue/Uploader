@@ -49,3 +49,4 @@ class Config(object):
     
     # dict to hold the ReQuest queue
     ADL_BOT_RQ = {}
+    CAPTION = "Video Uploadeded by Tellybots\n\nMade by @AbirHasan2005"
