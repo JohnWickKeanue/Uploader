@@ -14,5 +14,4 @@ dnspython
 psutil
 pyrogram
 tgcrypto
-yt-dlp
-
+git+git://github.com/Tellybots/yt-dlp.git
