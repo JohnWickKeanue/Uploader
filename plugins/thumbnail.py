@@ -1,4 +1,4 @@
-# Copyright @Tellybots | @ShriMadhavUk
+# Copyright @Tellybots | @ShriMadhavUk| @Dc4warrior
 import logging
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -21,14 +21,13 @@ from pyrogram import filters
 from .database.database import db
 from .functions.help_Nekmo_ffmpeg import take_screen_shot
 
-
 @Client.on_message(filters.private & filters.photo)
 async def save_photo(bot, update):
     
     await db.set_thumbnail(update.from_user.id, thumbnail=update.photo.file_id)
     await bot.send_message(chat_id=update.chat.id, text=Translation.SAVED_CUSTOM_THUMB_NAIL, reply_to_message_id=update.message_id)
 
-@Client.on_message(filters.private & filters.command("delthumbnail"))
+@Client.on_message(filters.private & filters.command("delthumb"))
 async def delthumbnail(bot, update):
     
     await db.set_thumbnail(update.from_user.id, thumbnail=None)
@@ -42,10 +41,10 @@ async def viewthumbnail(bot, update):
         await bot.send_photo(
         chat_id=update.chat.id,
         photo=thumbnail,
-        caption=f"Your current saved thumbnail 🦠",
+        caption=f"Yᴏᴜʀ ᴄᴜʀʀᴇɴᴛ sᴀᴠᴇᴅ ᴛʜᴜᴍʙɴᴀɪʟ 🦠",
         reply_to_message_id=update.message_id)
     else:
-        await update.reply_text(text=f"No Thumbnail found 🤒")
+        await update.reply_text(text=f"Nᴏ Tʜᴜᴍʙɴᴀɪʟ ғᴏᴜɴᴅ 🤒")
 
 async def Gthumb01(bot, update):
     thumb_image_path = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id) + ".jpg"

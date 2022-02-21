@@ -3,62 +3,79 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 class Translation(object):
 
     START_TEXT = """
-Hey {}
+👋 Hᴇʏ {} ♡
 
-I am Telegram Most Powerful Url Uploader Bot
+I ᴀᴍ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ᴜʀʟ ᴜᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ
 
-I can Upload Any Link in File or Video except Drm Protected Links
+Usᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ
 
-Use Help Button to Know How to Use me
-
-Made With 💕 By @Tellybots
+Pᴏᴡᴇʀᴇᴅ ʙʏ : [Tᴇʟʟʏʙᴏᴛs](https://telegram.me/TellyBots)
 """
     HELP_TEXT = """
-Link to Media or File
-➠ Send a link for upload to telegram file or media.
+ʟɪɴᴋ ᴛᴏ ᴍᴇᴅɪᴀ ᴏʀ ғɪʟᴇ
 
-Set Thumbnail
-➠ Send a photo to make it as permanent thumbnail.
+➠ sᴇɴᴅ ᴀ ʟɪɴᴋ ғᴏʀ ᴜᴘʟᴏᴀᴅ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇ ᴏʀ ᴍᴇᴅɪᴀ.
 
-Deleting Thumbnail
-➠ Send /delthumbnail to delete thumbnail.
+sᴇᴛ ᴛʜᴜᴍʙɴᴀɪʟ
 
-Show Thumbnail
-➠ Send /showthumb to view custom thumbnail.
+➠ sᴇɴᴅ ᴀ ᴘʜᴏᴛᴏ ᴛᴏ ᴍᴀᴋᴇ ɪᴛ ᴀs ᴘᴇʀᴍᴀɴᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ.
 
-Made With 💕 By @Tellybots
+ᴅᴇʟᴇᴛɪɴɢ ᴛʜᴜᴍʙɴᴀɪʟ
+
+➠ sᴇɴᴅ /delthumb ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴛʜᴜᴍʙɴᴀɪʟ.
+
+sʜᴏᴡ ᴛʜᴜᴍʙɴᴀɪʟ
+
+➠ sᴇɴᴅ /showthumb ᴛᴏ ᴠɪᴇᴡ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ.
+
+Pᴏᴡᴇʀᴇᴅ ʙʏ : [Tᴇʟʟʏʙᴏᴛs](https://telegram.me/TellyBots)
+ 
 """
     ABOUT_TEXT = """
- **🤖 Bot :** Url Uploader\n
- **👲 Developer :** [Tellybots](https://telegram.me/tellybots)\n
- **👥 Channel :** [Tellybots](https://telegram.me/tellybots)\n
- **❄️ Credits :** Everyone in this journey\n
- **🍴 Source :** [Click here](https://t.me/tellybots_digital)\n
- **📝 Language :** [Python3](https://python.org)\n
- **📚 Library :** [Pyrogram v1.2.0](https://pyrogram.org)\n
- **🌟 Server :** [Heroku](https://heroku.com)\n
+**Mʏ ɴᴀᴍᴇ** : [ᴜᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ](http://t.me/TellyUploaderRobot)
+
+**Cʜᴀɴɴᴇʟ** : [Tᴇʟʟʏʙᴏᴛs](https://t.me/TellyBots)
+
+**Vᴇʀꜱɪᴏɴ** : [2.0 ʙᴇᴛᴀ](https://t.me/TellyUploaderRobot)
+
+**Sᴏᴜʀᴄᴇ** : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/tellybots_digital)
+
+**Sᴇʀᴠᴇʀ** : [ʜᴇʀᴏᴋᴜ](https://heroku.com/)
+
+**Lᴀɴɢᴜᴀɢᴇ :** [Pʏᴛʜᴏɴ 3.10.2](https://www.python.org/)
+
+**Fʀᴀᴍᴇᴡᴏʀᴋ :** [ᴘʏʀᴏɢᴀᴍ 1.3.6](https://docs.pyrogram.org/)
+
+**Dᴇᴠᴇʟᴏᴘᴇʀ :** [Tᴇʟʟʏʙᴏᴛs](https://t.me/tellybots)
+
+**Pᴏᴡᴇʀᴇᴅ ʙʏ :** [NᴀʏsᴀBᴏᴛs](https://t.me/NaysaBots)
+
 """
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🤖 Channel', url='https://telegram.me/tellybots'),
-        InlineKeyboardButton('💬 Support', url='https://telegram.me/tellybots_support')
+        InlineKeyboardButton(' ᴜᴘᴅᴀᴛᴇs', url='https://telegram.me/Tellybots'),
+        InlineKeyboardButton(' sᴜᴘᴘᴏʀᴛ', url='https://telegram.me/Tellybots')
         ],[
-        InlineKeyboardButton('❔ Help', callback_data='help'),
-        InlineKeyboardButton('⛔ Close', callback_data='close')
+        InlineKeyboardButton(' ʜᴇʟᴘ', callback_data='help'),
+        InlineKeyboardButton(' ᴀʙᴏᴜᴛ', callback_data='about')
+        ],[
+        InlineKeyboardButton(' ᴄʟᴏsᴇ', callback_data='close')
         ]]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🏡 Home', callback_data='home'),
-        InlineKeyboardButton('👲 About', callback_data='about'),
-        InlineKeyboardButton('⛔ Close', callback_data='close')
+        InlineKeyboardButton(' ʜᴏᴍᴇ', callback_data='home'),
+        InlineKeyboardButton(' ᴀʙᴏᴜᴛ', callback_data='about')
+        ],[
+        InlineKeyboardButton(' ᴄʟᴏsᴇ', callback_data='close')
         ]]
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🏡 Home', callback_data='home'),
-        InlineKeyboardButton('❔ Help', callback_data='help'),
-        InlineKeyboardButton('⛔ Close', callback_data='close')
+        InlineKeyboardButton(' ʜᴏᴍᴇ', callback_data='home'),
+        InlineKeyboardButton(' ʜᴇʟᴘ', callback_data='help')
+        ],[
+        InlineKeyboardButton(' ᴄʟᴏsᴇ', callback_data='close')
         ]]
     )
 
@@ -66,7 +83,7 @@ Made With 💕 By @Tellybots
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>No preminum plans available in this bot </b>  /help for Details"
-    FORMAT_SELECTION = "Now Select The Desired Format or File 🗄️ Size to Upload"
+    FORMAT_SELECTION = "Nᴏᴡ Sᴇʟᴇᴄᴛ Tʜᴇ Dᴇsɪʀᴇᴅ Fᴏʀᴍᴀᴛ ᴏʀ Fɪʟᴇ 🗄️ Sɪᴢᴇ ᴛᴏ Uᴘʟᴏᴀᴅ"
     SET_CUSTOM_USERNAME_PASSWORD = """"""
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     DOWNLOAD_FILE = "📥 Downloading  File "
@@ -74,21 +91,21 @@ Made With 💕 By @Tellybots
     ANNO_UPLOAD = " UploadinG📤 \n\n To  anonfiles.com "
     BAY_UPLOAD = " UploadinG📤 \n\n To  bayfiles.com "
     GO_FILE_UPLOAD = " 📤UploadinG📤 \n\n To  gofile.io "
-    DOWNLOAD_START = "📄 Please Wait Until It's Completed ⏳\n\n📥 Downloading started..."
-    UPLOAD_START = "📤 Uploading Please Wait..."
+    DOWNLOAD_START = "Dᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛᴏ ᴍʏ sᴇʀᴠᴇʀ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ  ⏳"
+    UPLOAD_START = "📤 Uᴘʟᴏᴀᴅɪɴɢ Pʟᴇᴀsᴇ Wᴀɪᴛ"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
     AFTER_SUCCESSFUL_UPLOAD_MSG = " JOIN : https://t.me/TGBotsCollection\nFor the List of Telegram Bots"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\n\nThanks For Using Me\n\nUploaded in {} seconds."
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Dᴏᴡɴʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs.\n\nTʜᴀɴᴋs Fᴏʀ Usɪɴɢ Mᴇ\n\nUᴘʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs"
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
-    SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
-    DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
+    SAVED_CUSTOM_THUMB_NAIL = "Cᴜsᴛᴏᴍ ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴛʜᴜᴍʙɴᴀɪʟ sᴀᴠᴇᴅ. Tʜɪs ɪᴍᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴜsᴇᴅ ɪɴ ᴛʜᴇ ᴠɪᴅᴇᴏ / ғɪʟᴇ."
+    DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Cᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴄʟᴇᴀʀᴇᴅ sᴜᴄᴄᴇsғᴜʟʟʏ"
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
     SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
     CUSTOM_CAPTION_UL_FILE = " "
-    NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
-    NO_VOID_FORMAT_FOUND = "Please Send a Valid Url"
+    NO_CUSTOM_THUMB_NAIL_FOUND = "Nᴏ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ғᴏᴜɴᴅ"
+    NO_VOID_FORMAT_FOUND = "ERROR... <code>{}</code>"
     FILE_NOT_FOUND = "Error, File not Found!!"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     SOMETHING_WRONG = "<code>Something Wrong. Try again.</code>"
@@ -125,4 +142,4 @@ Free users only 1 request per 30 minutes.
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     FORCE_SUBSCRIBE_TEXT = "<code>Sorry Dear You Must Join My Updates Channel for using me 😌😉....</code>"
     BANNED_USER_TEXT = "<code>You are Banned!</code>"
-    CHECK_LINK = "Processing Please Wait"
+    CHECK_LINK = "Pʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʟɪɴᴋ ⌛"
