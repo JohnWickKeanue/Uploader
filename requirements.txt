@@ -14,4 +14,5 @@ dnspython
 psutil
 pyrogram
 tgcrypto
-git+git://github.com/Tellybots/yt-dlp.git
+yt-dlp
+humanfriendly
